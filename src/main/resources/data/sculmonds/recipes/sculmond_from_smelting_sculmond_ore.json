@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "sculmond",
+  "ingredient": {
+    "item": "sculmonds:sculmond_ore"
+  },
+  "result": "sculmonds:sculmond"
+}

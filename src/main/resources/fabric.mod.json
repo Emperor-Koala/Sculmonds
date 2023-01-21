@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sculmonds",
+  "version": "${version}",
+  "name": "Sculmonds",
+  "description": "Sculk infused diamonds, with some interesting properties",
+  "authors": [
+    "Emperor_Koala"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sculmonds/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.empko.sculmonds.client.SculmondsClient"
+    ],
+    "main": [
+      "net.empko.sculmonds.Sculmonds"
+    ]
+  },
+  "mixins": [
+    "sculmonds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabricloader}",
+    "fabric-api": ">=${fabric_api}",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": ">=${minecraft}",
+    "java": ">=${java}"
+  }
+}
